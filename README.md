@@ -135,12 +135,12 @@ real-time-anomaly-detection-pipeline/
 │
 ├── producer/
 │   ├── Dockerfile
-│   ├── app.py
+│   ├── producer.py
 │   └── requirements.txt
 │
 ├── consumer/
 │   ├── Dockerfile
-│   ├── app.py
+│   ├── consumer.py
 │   └── requirements.txt
 │
 ├── dashboard/
