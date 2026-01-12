@@ -1,5 +1,4 @@
-=====================================================
-🚨📊 Real-Time Anomaly Detection Pipeline
+# 🚨📊 Real-Time Anomaly Detection Pipeline
 =====================================================
 
 📌 PROJECT OVERVIEW
@@ -34,6 +33,8 @@ This project reflects real-world use cases such as:
 
 🏗️ ARCHITECTURE
 ---------------
+```
+
 Python Producer 🐍
    ↓
 Kafka Topic (raw_events) 📨
@@ -45,7 +46,7 @@ Kafka Topic (anomalies) 📌
 PostgreSQL (anomalies table) 🗄️
    ↓
 Streamlit Dashboard (Real-Time View) 📈
-
+```
 
 🧩 SYSTEM COMPONENTS
 -------------------
