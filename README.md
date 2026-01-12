@@ -18,6 +18,7 @@ This project reflects real-world use cases such as:
 - ⚙️ Operational intelligence
 - 📊 Streaming analytics systems
 
+---
 
 🧠 KEY CONCEPTS COVERED
 ----------------------
@@ -30,6 +31,7 @@ This project reflects real-world use cases such as:
 - 📊 Real-time dashboards
 - 🛡️ Fault-tolerant data pipelines
 
+---
 
 🏗️ ARCHITECTURE
 ---------------
@@ -47,6 +49,8 @@ PostgreSQL (anomalies table) 🗄️
    ↓
 Streamlit Dashboard (Real-Time View) 📈
 ```
+
+---
 
 🧩 SYSTEM COMPONENTS
 -------------------
@@ -74,6 +78,7 @@ Streamlit Dashboard (Real-Time View) 📈
    - Displays anomalies in near real-time
    - Auto-refreshes every few seconds ⏳
 
+---
 
 🚨 ANOMALY DETECTION LOGIC
 -------------------------
@@ -89,6 +94,7 @@ Processing steps:
 6. 🚨 Publish anomaly if detected
 7. 💾 Persist anomaly to PostgreSQL
 
+---
 
 📐 DETECTION RULE
 ----------------
@@ -105,6 +111,7 @@ Where:
 
 📍 Detection is performed **PER DEVICE**.
 
+---
 
 ⚙️ TECH STACK
 -------------
@@ -116,6 +123,7 @@ Where:
 - 🐳 Docker
 - 📦 Docker Compose
 
+---
 
 🗂️ PROJECT STRUCTURE
 --------------------
