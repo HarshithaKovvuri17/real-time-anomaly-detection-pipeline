@@ -1,5 +1,5 @@
 # 🚨📊 Real-Time Anomaly Detection Pipeline
-=====================================================
+---
 
 📌 PROJECT OVERVIEW
 ------------------
