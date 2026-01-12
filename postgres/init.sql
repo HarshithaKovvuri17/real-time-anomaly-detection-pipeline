@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS anomalies (
+    id SERIAL PRIMARY KEY,
+    device_id VARCHAR(50) NOT NULL,
+    event_timestamp TIMESTAMP NOT NULL,
+    metric_value DOUBLE PRECISION NOT NULL,
+    mean_value DOUBLE PRECISION NOT NULL,
+    std_dev_value DOUBLE PRECISION NOT NULL,
+    processed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
